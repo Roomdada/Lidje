@@ -1,0 +1,20 @@
+Donc en conclusion le cahier de charge se présente comme suite :
+
+1/Un user fait des recherches de restaurant sur le site
+2/choisir un restaurant en fonction du plat qu’il a choisi
+
+3/ il passe la commande dans le cas où il est interrogé dans le cas contraire il ne fait que se renseigner sur les différents plats proposés en fonction des restaurants 
+
+4/lorsque le client choisit le plat on lui demande s’il veut être livré avec une option pour cela ou une réservation de table 
+ 
+5/dans le cas où le user décide qu’on le livre alors ça commande est traiter immédiatement,on lui affiche le montant global qui doit payer ainsi que les différents modes de paiement 
+
+6/. Dans le cas où le user décide de passer une réservation,il doit d’authentifier (nom,prénom,.......date ,navré de personnes ,heure)
+
+Dans le cas où la réservation est annulé 😠 ça commande est automatiquement rejeté ,
+
+7/les restaurants doit être afficher soit pas commune ou pas categories de plats ,de plus le user a la possibilité de liker ou de disliker le plat,de suggérer le restaurant de son choix à une tierce personne Par la suite le système me génère une facture sous forme pdf via mon e-mail si possible pas un système de messagerie.
+
+8/J’oubliais Monsieur je voulais que vous insérer des systeme de notifications lorsqu’il des nouveau restaurants,et envoie des messages d’Alerte lorsque l’utilisateur n’est pas connecté et qu’il veut réserver dans un restaurant,
+
+Donc voilà un peut ce que je voulais que vous lister dans mon application,j’oubliais monsieur je veux aussi que le site soit responsif si possible avec des couleurs un peu vif et des écritures lisibles pas tous et facile à utiliser .Enfin je voudrais une sorte de listing au niveau de l’application pour afficher un petit résumé de ce qu’il a commander ou réserver ,ainsi que des options de modification ou de suppression donc voici en quelque sorte mes souhaits monsieur
