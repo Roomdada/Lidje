@@ -7,14 +7,14 @@
 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 <ul class="navbar-nav">
 <li class="nav-item">
-<a href="#" class="nav-link dropdown-toggle active">Accueil</a>
+<a href="{{ route('home.path') }}" class="nav-link dropdown-toggle active">Accueil</a>
 
 </li>
 <li class="nav-item">
-<a href="about.html" class="nav-link">A propos</a>
+<a href="{{ route('about.path') }}" class="nav-link">A propos</a>
 </li>
 <li class="nav-item">
-<a href="/restaurants" class="nav-link">Nos Restaurant</a>
+<a href="{{ route('restaurants.path') }}" class="nav-link">Nos Restaurant</a>
 </li>
 <li class="nav-item">
 <a href="#" class="nav-link dropdown-toggle">Plats<i class='bx bx-chevron-down'></i></a>
@@ -28,16 +28,16 @@
 </li>
 
 <li class="nav-item">
-<a href="contact-us.html" class="nav-link">Contact</a>
+<a href="{{ route('contact.path') }}" class="nav-link">Contact</a>
 </li>
 <li class="nav-item">
 <a href="contact-us.html" class="nav-link">Se connecter</a>
 </li>
 </ul>
 <div class="side-nav">
- <a class="nav-cart" href="#">
+ <a class="nav-cart" href="{{ route('cart.path') }}">
 <i class='bx bxs-cart'></i>
-<span>1</span>
+<span>0</span>
 </a>
 <button type="button" class="btn modal-btn" data-toggle="modal" data-target="#myModalRight">
 <i class='bx bx-menu-alt-right'></i>

@@ -131,10 +131,15 @@
 </div>
 
 
+
+
 @yield('content')
 
 
 @livewireScripts
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <script data-cfasync="false" src="https://templates.hibootstrap.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.5.0.min.js"></script>
 <script src="{{asset('assets/js/popper.min.js')}}"></script>
 <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
